@@ -1,0 +1,32 @@
+# Build output
+/build*/
+/cmake-build-*/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/compile_commands.json
+*.o
+*.a
+*.so
+*.exe
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local configuration and logs
+.env
+.env.*
+*.log
